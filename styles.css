@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+}
+#outer{
+   border: 3px solid red;
+border-radius: 10px;
+width: 99%;
+height: 70px;
+margin: 2px 2px;
+background-color: black;
+display: flex;
+align-items: center;
+
+
+}
+.text{
+
+   color: whitesmoke;
+   padding-left: 28px;
+   font-size: 18px;
+
+}
+#logo
+{
+width: 60px;
+height: 63px;
+border-radius: 5px;
+margin-left: 7px;
+padding-right: 15px;
+}
+.credentials{
+   color: whitesmoke;
+   margin-left: 650px;
+   font-size: 18px;
+}
+nav::after{
+content: "";
+   background: url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltfGVufDB8fDB8fA%3D%3D&w=1000&q=80") no-repeat center center/cover;
+position: absolute;
+    top: 0px;
+    left: 0px;
+height:80%;
+width: 100%;
+  z-index: -1;
+  opacity: 0.3;
+
+}
+#heading{
+text-align: center;
+padding-top: 7px;
+padding-bottom: 9px;
+font-size: 40px;
+
+}
+#descripton{
+border: 6px solid aquamarine ;
+border-radius: 25px;
+width: 720px;
+height: 193px;
+margin: auto;
+margin-top: 70px;
+font-size: 30px;
+}
+#about{
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   font: italic;
+   font-size: 23px;
+color: black;
+font-weight: 900;
+}
+#aditya{
+   font-size: 50px;
+text-align: center;
+   padding-top: 60px;
+
+margin-top: 110px;
+margin-bottom: 20px;
+}
+
+#facilitiesBox
+{
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.facilitiesinfo{
+border: 4px solid goldenrod;
+border-radius: 10px;
+width: 330px;
+}
+.fachead{
+text-align: center;
+font-size: 27px;
+}
+
+.images{
+   height: 200px;
+   width: 300px;
+   padding-left: 15px;
+   border-radius: 33px;
+   padding-top: 7px;
+}
+#fuckmukesh::before{
+   content: "";
+   background: url("https://www.ukactive.com/wp-content/uploads/2017/01/ukactive-boutique-fitness-physical-activity.jpg") no-repeat center center/cover;
+position: absolute;
+width: 100%;
+height: 50%;
+z-index: -1;
+opacity: 0.3;
+transform: translate(-50%,0%);
+
+}
+#fuckmukesh{
+   color: red;
+   text-align: center;
+   font-size: 47px;
+   margin-top: 55px;
+   margin-bottom: 35px;
+}
+#brands{
+   display: flex;
+   justify-content: space-evenly;
+}
+.brandimgs{
+width: 230px;
+height: 160px;
+}
+#membership{
+   margin-top: 50px;
+display: flex;
+justify-content: space-evenly;
+}
+.list{
+   font-size: 23px;
+   padding-left: 20px;
+   padding-top: 30px;
+   color: ;
+}
+.benefits{
+   padding-top: 20px;
+  
+}
+h2{
+   padding-top: 5px;
+   font-size: 35px;
+   text-align: center;
+
+}
+.member{
+border: 3px solid yellowgreen;
+border-radius: 27px;
+width: 430px;
+height: 400px;
+background-color: whitesmoke;
+color: blueviolet;
+}
+#joining{
+margin-top: 120px;
+color: darkviolet;
+font-family: "moon extra bold",Sans-serif;
+    font-size: 41px;
+    font-weight: 900;
+    text-align: center;
+}
+#joining::before{
+   content: "";
+   background: url("https://www.hotelvanzandt.com/images/1700-960/fitness-center-page-60305a7f.jpg")  no-repeat center center/cover;
+   position: absolute;
+   width: 148%;
+   height: 88%;
+   z-index: -1;
+opacity: 0.4;
+transform: translate(-50%,0%);
+}
+#hello{
+display: flex;
+border: 3px solid gold;
+height: 200px;
+margin-top: 30px;
+border-radius: 10px;
+background-color: violet;
+}
+#gymshark{
+   width: 280px;
+   height: 180px;
+   border-radius: 18px;
+   padding-top: 5px;
+}
+#readygym{
+   position: relative;
+top: 65px;
+padding-left: 30px;
+font-size: 60px;
+}
+#form{
+   width: 300px;
+   margin: auto;
+   font-size: 20px;
+   font-weight: 900;
+}
+#form::before{
+content: "";
+background: url("https://www.digitaldesignjournal.com/wp-content/uploads/2020/01/free-css-particle-backgrounds-4.png") no-repeat center center/cover;
+position: absolute;
+width: 130%;
+height: 100%;
+transform: translate(-50%,0%);
+z-index: -1;
+opacity: 0.3;
+
+
+}
